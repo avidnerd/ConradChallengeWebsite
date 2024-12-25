@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarFilm Innovation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header img {
+            height: 50px;
+        }
+        header nav a {
+            color: white;
+            margin-left: 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        header nav a:hover {
+            color: #ffcc00;
+        }
+        .hero {
+            text-align: center;
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 6rem 2rem;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+        .section-title {
+            text-align: center;
+            margin: 2rem 0;
+            color: #004080;
+        }
+        .features img, .team img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            background-color: #00264d;
+            color: white;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        footer a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="logo.png" alt="SolarFilm Logo">
+        </div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>SolarFilm Innovation</h1>
+        <p>Revolutionizing transparent solar technology for a sustainable future.</p>
+    </div>
+
+    <section id="features" class="container my-5">
+        <h2 class="section-title">Features & Benefits</h2>
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <img src="transparent-solar-film.jpg" alt="Transparent Solar Film">
+            </div>
+            <div class="col-md-6">
+                <h3>High Efficiency</h3>
+                <p>Our transparent solar film uses advanced quantum dot technology to maximize energy conversion while maintaining clarity.</p>
+            </div>
+        </div>
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6 order-md-2">
+                <img src="durable-materials.jpg" alt="Durable Materials">
+            </div>
+            <div class="col-md-6 order-md-1">
+                <h3>Durable and Flexible</h3>
+                <p>Engineered with robust materials, SolarFilm is both flexible and resistant to environmental degradation.</p>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="urban-application.jpg" alt="Urban Application">
+            </div>
+            <div class="col-md-6">
+                <h3>Urban Integration</h3>
+                <p>Designed for urban hotspots, our solution seamlessly integrates with building facades, windows, and vehicles.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="container my-5">
+        <h2 class="section-title">Meet Our Team</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="team_photo.jpg" alt="Team Photo">
+            </div>
+            <div class="col-md-6">
+                <h3>Our Mission</h3>
+                <p>We are committed to creating cutting-edge solutions that address the world's energy challenges while promoting sustainability and innovation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container my-5 text-center">
+        <h2 class="section-title">Contact Us</h2>
+        <p>Have questions or want to collaborate? Reach out to us at <a href="mailto:contact@solarfilm.com">contact@solarfilm.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SolarFilm Innovation. All Rights Reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
